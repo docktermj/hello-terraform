@@ -1,0 +1,27 @@
+# User modifiable variables for terraform deployment.
+# Variables that can be modified. Defaults are shown.
+
+## Number of "app" EC2 machine images to deploy.
+# app_ec2_count = 1
+
+## AWS instance type.
+## Reference: https://aws.amazon.com/ec2/instance-types
+# app_instance_type = "t2.micro"
+
+## Configurations to deploy.
+# app_configuration = "app-default"
+
+## AWS availability zone to place deployment.
+# aws_availability_zone = "us-east-1c"
+
+## AWS Access key
+# aws_access_key = "AAAAAAAAAAAAAAAAAAAA"
+
+## AWS Secret key
+# aws_secret_key = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+
+## Location of your SSH public key
+# ssh_public_key_path = "~/.ssh/id_rsa.pub"
+
+## Location of your SSH private key
+# ssh_private_key_path = "~/.ssh/id_rsa"
